@@ -1,9 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import styles from "./index.css";
+import App from "./app/app.jsx";
 
-const HelloWorld = () => {
-  return <div className={styles.title}>Up and running!</div>;
-};
-
-ReactDOM.render(<HelloWorld />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));

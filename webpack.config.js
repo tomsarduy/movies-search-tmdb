@@ -3,7 +3,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|svg)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"
@@ -21,6 +21,17 @@ module.exports = {
               modules: true,
               camelCase: true,
               sourceMap: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "react-svg-loader",
+            options: {
+              jsx: true // true outputs JSX tags
             }
           }
         ]
