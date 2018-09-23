@@ -1,0 +1,23 @@
+.list {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.listItem {
+  list-style: none;
+  padding: 0.3rem;
+}
+
+.genreTag,
+.releaseDate {
+  background: #00bcd4;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.releaseDate {
+  background: #f39406;
+}
