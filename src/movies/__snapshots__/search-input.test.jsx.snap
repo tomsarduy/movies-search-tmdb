@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderByInput renders correctly 1`] = `
+<input
+  id="movie-search"
+  name="q"
+  onChange={[Function]}
+  placeholder="Search movies..."
+  type="search"
+/>
+`;

@@ -1,12 +1,10 @@
+import { shallow } from "enzyme";
 import React from "react";
-
 import Header from "./header";
 
-import renderer from "react-test-renderer";
-
-describe("Header renders correctly", () => {
+describe("Header", () => {
   it("renders correctly", () => {
-    const rendered = renderer.create(<Header />);
-    expect(rendered.toJSON()).toMatchSnapshot();
+    const component = shallow(<Header />);
+    expect(component).toMatchSnapshot();
   });
 });

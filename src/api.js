@@ -1,7 +1,7 @@
 export const apiKey = "88c8850e8777f4729b2fb5965887fe13";
 const baseURL = "https://api.themoviedb.org/3";
 
-const checkStatus = (response: Response) => {
+const checkStatus = response => {
   if (response.ok) {
     return response;
   }
