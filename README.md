@@ -2,6 +2,8 @@
 
 Dynamic search for movie titles using TMDb
 
+![screenshot](screenshot.png?raw=true "Screenshot")
+
 ## Run the project
 
 ```
